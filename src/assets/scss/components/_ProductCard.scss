@@ -1,0 +1,25 @@
+@import "../helpers/variables";
+
+.home-product {
+  width: 100%;
+  margin: 0 auto;
+  column-count: 4;
+  column-gap: 24px;
+}
+
+.product-card {
+  box-sizing: border-box;
+  margin: 0 auto 24px;
+  break-inside: avoid;
+}
+
+.product-card-img {
+  cursor: pointer;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.product-card-title-origin-price {
+  font-size: $font-size-sm;
+}

@@ -1,0 +1,33 @@
+.home-anno-list {
+  height: 326px;
+  overflow-y: scroll;
+}
+
+.home-anno-list-item {
+
+}
+
+.home-swipper {
+  height: 400px;
+  .home-swipper-slide {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .home-swiper-pagination-active {
+    background: $green;
+    opacity: 1;
+  }
+
+  .swiper-button-prev ,
+  .swiper-button-next {
+    color: $green;
+  }
+}
+
+main {
+  padding: 50px 0;
+}
